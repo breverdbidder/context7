@@ -24,7 +24,8 @@
     "lint": "eslint . --fix",
     "lint:check": "eslint .",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "test": "vitest run"
   },
   "repository": {
     "type": "git",
@@ -54,6 +55,7 @@
     "@opencode-ai/plugin": "^1.18.11",
     "@types/node": "^25.9.1",
     "tsup": "^8.5.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.9"
   }
 }
